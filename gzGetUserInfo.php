@@ -49,15 +49,15 @@ function getJson($url){
 		<meta name="viewport" content="initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0, width=device-width,target-densitydpi=device-dpi" />
 		<script src="http://libs.baidu.com/zepto/1.1.4/zepto.min.js"></script>
 		<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
-		<script src="img/wxcommon.min926.js"></script>
-		<script src="img/createjs.js" type="text/javascript" charset="utf-8"></script>
-		<script src="img/head.js"></script>
-		<link rel="stylesheet" href="img/style.css">
+		<script src="wxcommon.min926.js"></script>
+		<script src="createjs.js" type="text/javascript" charset="utf-8"></script>
+		<script src="head.js"></script>
+		<link rel="stylesheet" href="style.css">
 	</head>
 
 	<body onLoad="init()">
 		<div id="wx_pic" style="margin:0 auto;display:none">
-			<img src="img/300.jpg">
+			<img src="300.jpg">
 		</div>
 		<div id="GameScoreLayer" class="BBOX SHADE bgc1" style="display:none;">
 			<div style="padding:0 5%;">
@@ -100,7 +100,7 @@ function getJson($url){
 			<div id="landscape-text" style="color:#fff;font-size:3em;">请竖屏玩耍</div>
 		</div>
 		<div id="share-wx">
-			<p style="text-align: right; padding-left: 10px;"><img src="img/2000.png" id="share-wx-img" style="max-width: 280px; padding-right: 25px;"></p>
+			<p style="text-align: right; padding-left: 10px;"><img src="2000.png" id="share-wx-img" style="max-width: 280px; padding-right: 25px;"></p>
 		</div>
 		<script src="img/s.js"></script>
 		
